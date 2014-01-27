@@ -2,6 +2,26 @@
 Changelog for package rosbag
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.9.54 (2014-01-27)
+-------------------
+* readd missing declaration of rosbag::createAdvertiseOptions (`#338 <https://github.com/ros/ros_comm/issues/338>`_)
+
+1.9.53 (2014-01-14)
+-------------------
+
+1.9.52 (2014-01-08)
+-------------------
+
+1.9.51 (2014-01-07)
+-------------------
+* move several client library independent parts from ros_comm into roscpp_core, split rosbag storage specific stuff from client library usage (`#299 <https://github.com/ros/ros_comm/issues/299>`_)
+* fix return value on platforms where char is unsigned.
+* fix usage of boost include directories
+
+1.9.50 (2013-10-04)
+-------------------
+* add chunksize option to rosbag record
+
 1.9.49 (2013-09-16)
 -------------------
 
